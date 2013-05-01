@@ -1,0 +1,23 @@
+!!!
+html(manifest=manifestURL)
+  head
+    title=title
+    if webApp
+      meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0")
+      meta(name="apple-mobile-web-app-capable", content="yes")
+      meta(name="format-detection", content="telephone=no")
+    if shortcutIcon
+      link(rel="shortcut icon", href=shortcutIcon)
+    each size, url in appleTouchIcons
+      link(rel="apple-touch-icon", sizes=size, href=url)
+    each size, url in appleTouchIconsPrecomposed
+      link(rel="apple-touch-icon-precomposed", sizes=size, href=url)
+    each cssPath in cssPaths
+      link(rel="stylesheet", href=cssPath, type="text/css")
+    each jsPath in jsPaths
+      script(type="text/javascript",src=jsPath)
+    if cssCode
+      style(type="text/css") !{cssCode}
+    if jsCode
+      script(type="text/javascript") !{jsCode}
+  body=body

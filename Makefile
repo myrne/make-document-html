@@ -2,6 +2,13 @@ build:
 	mkdir -p lib
 	rm -rf lib/*
 	node_modules/.bin/coffee --compile -m --output lib/ src/
+	node_modules/.bin/jade -c -D -P src/template.jade -o lib/
+	mkdir -p tmp
+	echo 'jade = require("jade-runtime").runtime' > tmp/jade-runtime-patched
+	echo 'module.exports = ' >> tmp/jade-runtime-patched
+	cat lib/template.js >> tmp/jade-runtime-patched
+	cp tmp/jade-runtime-patched lib/template.js
+	rm -rf tmp
 
 watch:
 	node_modules/.bin/coffee --watch --compile --output lib/ src/

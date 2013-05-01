@@ -12,10 +12,14 @@
     "url": "git://github.com/meryn/make-document-html.git"
   },
   "private": false,
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "~1.4.4",
+    "jade-runtime": "0.0.2"
+  },
   "devDependencies": {
     "coffee-script": "~1.6.2",
-    "mocha": "~1.9.0"
+    "mocha": "~1.9.0",
+    "jade": "~0.30.0"
   },
   "optionalDependencies": {},
   "engines": {
