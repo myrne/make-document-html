@@ -37,6 +37,7 @@ makeHTML()
 
 ```coffee
 makeHTML
+  manifestURL: "/appcache.manifest"
   title: "Stellarpad"
   webApp: true
   cssPath: "/latest.css"
@@ -52,7 +53,7 @@ makeHTML
 
 ```html
 <!DOCTYPE html>
-<html>
+<html manifest="/appcache.manifest">
   <head>
     <title>Stellarpad</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
