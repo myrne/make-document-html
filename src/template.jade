@@ -8,9 +8,9 @@ html(manifest=manifestURL)
       meta(name="format-detection", content="telephone=no")
     if shortcutIcon
       link(rel="shortcut icon", href=shortcutIcon)
-    each size, url in appleTouchIcons
+    each url, size in appleTouchIcons
       link(rel="apple-touch-icon", sizes=size, href=url)
-    each size, url in appleTouchIconsPrecomposed
+    each url, size in appleTouchIconsPrecomposed
       link(rel="apple-touch-icon-precomposed", sizes=size, href=url)
     each cssPath in cssPaths
       link(rel="stylesheet", href=cssPath, type="text/css")

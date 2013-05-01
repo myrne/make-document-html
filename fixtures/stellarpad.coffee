@@ -20,10 +20,10 @@ module.exports =
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="/Icon-72.png" href="72x72">
-    <link rel="apple-touch-icon-precomposed" sizes="/Icon-722x.png" href="144x144">
-    <link rel="apple-touch-icon-precomposed" sizes="/Icon.png" href="57x57">
-    <link rel="apple-touch-icon-precomposed" sizes="/Icon2x.png" href="114x114">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/Icon-72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/Icon-722x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/Icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/Icon2x.png">
     <link rel="stylesheet" href="/latest.css" type="text/css">
     <script type="text/javascript" src="/latest.js"></script>
     <script type="text/javascript">$(function(){Stellarpad.initialize()})</script>
