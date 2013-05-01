@@ -2,7 +2,7 @@
   "name": "make-document-html",
   "description": "Makes final document html from named parameters.",
   "keywords": [],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Meryn Stol <merynstol@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/meryn/make-document-html",
