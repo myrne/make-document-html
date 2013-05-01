@@ -1,0 +1,31 @@
+{
+  "name": "make-document-html",
+  "description": "Makes final document html from named parameters.",
+  "keywords": [],
+  "version": "0.0.0",
+  "author": "Meryn Stol <merynstol@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/meryn/make-document-html",
+  "bugs": "https://github.com/meryn/make-document-html/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meryn/make-document-html.git"
+  },
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "mocha": "~1.9.0"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "main": "lib/make-document-html.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "pretest": "make build",
+    "test": "make test"
+  }
+}
