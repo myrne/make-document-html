@@ -11,6 +11,7 @@ module.exports =
   <head>
     <title>A title</title>
     <script type="text/javascript">
+(function () {
         mocha.setup({
           ui: 'bdd',
           reporter: require('visionmedia-mocha-matrix')
@@ -20,7 +21,8 @@ module.exports =
         } else {
           return mocha.run();
         }
-      </script>
+      })()
+</script>
   </head>
   <body>
 
