@@ -1,5 +1,6 @@
 module.exports = makeDefaults = ->
   webApp: false
+  charset: null
   manifestURL: null
   cssCode: ""
   jsCode: ""

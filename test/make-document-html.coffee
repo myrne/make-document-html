@@ -1,7 +1,7 @@
 makeHTML = require "../"
 assert = require "assert"
 
-fixtureNames = ["stellarpad","empty","withBody","withJSFunction"]
+fixtureNames = ["stellarpad","empty","withBody","withJSFunction","withCharset"]
 describe "make-final-html", ->
   it "turns options into html", ->
     for name in fixtureNames
