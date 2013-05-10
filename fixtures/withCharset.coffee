@@ -7,7 +7,7 @@ module.exports =
 <html>
   <head>
     <title>A title</title>
-    <meta name="charset" content="UTF-8">
+    <meta charset="UTF-8">
   </head>
   <body></body>
 </html>
