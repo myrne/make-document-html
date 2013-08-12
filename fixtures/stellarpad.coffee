@@ -17,7 +17,7 @@ module.exports =
 <html manifest="/appcache.manifest">
   <head>
     <title>Stellarpad</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="initial-scale=1, user-scalable=0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
     <link rel="shortcut icon" href="/favicon.ico">
