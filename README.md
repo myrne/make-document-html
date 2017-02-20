@@ -1,5 +1,7 @@
 # make-document-html [![Build Status](https://travis-ci.org/meryn/make-document-html.png?branch=master)](https://travis-ci.org/meryn/make-document-html) [![Dependency Status](https://david-dm.org/meryn/make-document-html.png)](https://david-dm.org/meryn/make-document-html)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/make-document-html.svg)](https://greenkeeper.io/)
+
 Makes final document html from named parameters.
 
 ## Usage
