@@ -13,13 +13,13 @@
   },
   "private": false,
   "dependencies": {
-    "underscore": "~1.4.4",
-    "jade-runtime": "0.0.2"
+    "underscore": "~1.8.3",
+    "jade-runtime": "2.0.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.6.2",
-    "mocha": "~1.9.0",
-    "jade": "~0.30.0"
+    "coffee-script": "~1.12.4",
+    "mocha": "~3.2.0",
+    "jade": "~1.11.0"
   },
   "optionalDependencies": {},
   "engines": {
